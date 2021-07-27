@@ -6,12 +6,10 @@ import "./MedShareToken.sol";
 import "./utils/StringsAndBytes.sol";
 
 contract MedShare is MedShareToken {
-
     
     // Biblical Principles
     address storeHouseAddress = 0x7125fc5F7B09330a37D863fAb18aeBFdDf9f5382; // Genesis4149
     
-   
     // Maps every family address to its own family name
     mapping(address => bytes32) private _familyNames;
     // Each account should be linked to one family
