@@ -24,6 +24,13 @@
   "homepage": "https://github.com/ShalomEmpire/medshare#readme",
   "devDependencies": {
     "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@truffle/hdwallet-provider": "^1.4.2",
+    "fs": "^0.0.1-security",
     "hardhat": "^2.5.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.2.1",
+    "@openzeppelin/contracts": "^4.2.0",
+    "@openzeppelin/contracts-upgradeable": "^4.2.0"
   }
 }
